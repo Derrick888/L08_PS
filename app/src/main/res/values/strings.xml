@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PS</string>
+    <string name="title">Song Title</string>
+    <string name="etTitle">Enter song title here</string>
+    <string name="singer">Singers</string>
+    <string name="etSinger">Enter singers name here</string>
+    <string name="year">Year</string>
+    <string name="etYear">Enter year of release here</string>
+    <string name="stars">Stars</string>
+    <string name="btnInsert">Insert</string>
+    <string name="btnShowList">Show List</string>
+    <string name="btnBack">Back</string>
+
+
+
+</resources>
