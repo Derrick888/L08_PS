@@ -7,16 +7,31 @@
     android:orientation="vertical"
     tools:context=".SecondActivity">
 
+    <Button
+        android:id="@+id/btnFilter5Stars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/sortby5stars" />
+
+    <Spinner
+        android:id="@+id/spinnerYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingTop="20dp" />
+
+
     <ListView
         android:id="@+id/lvSongs"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </ListView>
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
     <Button
         android:id="@+id/btnBack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnBack" />
+
 </LinearLayout>

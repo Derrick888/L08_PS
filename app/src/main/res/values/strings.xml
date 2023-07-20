@@ -10,7 +10,13 @@
     <string name="btnInsert">Insert</string>
     <string name="btnShowList">Show List</string>
     <string name="btnBack">Back</string>
-
+    <string name="sortby5stars">Show songs with 5 stars</string>
+    <string name="sortbyTitle">Sort by title</string>
+    <string name="sortbySinger">Sort by singer</string>
+    <string name="song_id">Song ID</string>
+    <string name="btnUpdate">Update</string>
+    <string name="btnDelete">Delete</string>
+    <string name="btnCancel">Cancel</string>
 
 
 </resources>

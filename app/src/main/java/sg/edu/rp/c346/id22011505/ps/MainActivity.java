@@ -83,29 +83,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnShowList.setOnClickListener(new View.OnClickListener() {
+        btnShowList.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                String title = etTitle.getText().toString();
-                String singer = etSinger.getText().toString();
-                int year = Integer.parseInt(etYear.getText().toString());
-
-                int stars = 0;
-
-                int starsGroupId = rgStars.getCheckedRadioButtonId();
-                RadioButton selectedRadioButton = findViewById(starsGroupId);
-
-                if (selectedRadioButton != null) {
-                    String starsText = selectedRadioButton.getText().toString();
-                    stars = Integer.parseInt(starsText);
-                }
-
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-                intent.putExtra("title", title);
-                intent.putExtra("singer", singer);
-                intent.putExtra("year", year);
-                intent.putExtra("stars", stars);
-
                 startActivity(intent);
             }
         });
